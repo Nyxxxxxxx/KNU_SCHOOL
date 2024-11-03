@@ -1,0 +1,37 @@
+.project-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .project-item .text-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .project-item img {
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .project-item h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .project-item p {
+    color: #555;
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  
+  .project-item a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  

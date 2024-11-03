@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.sidebar {
+  width: 200px; /* 사이드바 너비 */
+  padding: 20px;
+  background-color: #1A1A1A;
+  color: #FFF;
+  position: fixed; /* 왼쪽에 고정 */
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* ProjectList.css */
+
+.project-list {
+  width: 100%;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2열 레이아웃 */
+  gap: 5vh;
+  padding-left: 15vh; /* 사이드바와 간격 */
+}
+
+.project-title {
+  margin-bottom: 20px;
+  padding-left: 15vh;
+  font-size : 35px;
+}

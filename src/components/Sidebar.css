@@ -1,0 +1,32 @@
+  .sidebar h2 {
+    margin-bottom: 12vh; /* h2와 nav 사이에 여백 */
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar ul li.active {
+    color: #FF5733; /* 클릭된 항목의 텍스트 색상 */
+  }
+  
+  .sidebar ul li:hover {
+    color: #888; /* 마우스 호버 시 텍스트 색상 */
+  }
+
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 15px; /* li 간격 */
+  }
+  
+  .sidebar footer {
+    position: absolute;
+    bottom: 20px;
+  }
+  
